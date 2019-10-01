@@ -1,0 +1,21 @@
+{
+  "name": "model-repository",
+  "version": "1.0.0",
+  "description": "Database schema and operations",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "test": "npm test",
+    "start": "node build/index.js",
+    "build": "tsc"
+  },
+  "author": "Bruno Cerqueira de Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "@types/config": "^0.0.34",
+    "@types/mongoose": "^5.5.18",
+    "config": "^3.2.2",
+    "mongoose": "^5.7.1",
+    "typescript": "^3.6.3"
+  }
+}
