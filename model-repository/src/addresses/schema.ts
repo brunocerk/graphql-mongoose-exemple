@@ -14,13 +14,12 @@ let AddressSchema = new Schema({
     country: String,
     location: LocationSchema,
     placeId: {
-        googleMaps: String, //TODO: Should we index this?
-        openStreetMap: String, //TODO: Should we index this?
-    }
+        googleMaps: String, 
+        openStreetMap: String,
 });
 
 
 AddressSchema.index({location: "2dsphere"}, {sparse: 1});
-// AddressSchema.index({'placeId.googleMaps'} );
+
 
 export default AddressSchema
