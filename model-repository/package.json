@@ -15,7 +15,7 @@
     "@types/config": "^0.0.34",
     "@types/mongoose": "^5.5.18",
     "config": "^3.2.2",
-    "mongoose": "^5.7.1",
+    "mongoose": "^5.7.5",
     "typescript": "^3.6.3"
   }
 }
