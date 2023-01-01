@@ -14,7 +14,7 @@
   "dependencies": {
     "@types/config": "^0.0.34",
     "@types/mongoose": "^5.5.18",
-    "config": "^3.2.2",
+    "config": "^3.3.8",
     "mongoose": "^5.7.1",
     "typescript": "^3.6.3"
   }
